@@ -113,7 +113,7 @@ int	get_next_line(int fd, char **line)
 	free(vars.buffer);
 	return (vars.return_number);
 }
-/*
+
 int	main()
 {
 	int fd;
@@ -142,5 +142,3 @@ int	main()
 	printf("%s\n", line);
 	free(line);
 }
-
-*/
