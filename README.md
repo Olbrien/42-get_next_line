@@ -1,6 +1,7 @@
 # get_next_line
 
 Last update on 10/02/2021.
+Done with Norminette v3.
 
 **** Tests ****
 
