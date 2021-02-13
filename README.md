@@ -1,6 +1,10 @@
 # get_next_line
 
-###### <i>Recent Update on 11/02/2021.</i>
+
+###### <i>Recent Update on 13/02/2021.</i>
+Added lvl_1_get_next_line_old_norm.
+
+###### <i>Old Update on 11/02/2021.</i>
 Changed README.md structure.
 
 ###### <i>Old Update on 10/02/2021.</i>
