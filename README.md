@@ -17,7 +17,7 @@ Done with Norminette v3.
 
 **** Results ****
 
-![GitHub Logo](/images/42TESTERS-GNL.png)\
-![GitHub Logo](/images/42cursus_gnl_tests1.png)\
+![GitHub Logo](/extras/images/42TESTERS-GNL.png)\
+![GitHub Logo](/extras/images/42cursus_gnl_tests1.png)\
 
 
