@@ -6,7 +6,7 @@
 /*   By: tisantos <tisantos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/20 17:37:22 by marvin            #+#    #+#             */
-/*   Updated: 2021/02/10 04:21:31 by tisantos         ###   ########.fr       */
+/*   Updated: 2021/02/19 13:45:34 by tisantos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,9 @@ static void		write_to_line(char *stat_str, char **line, int char_pos)
 	temp = ft_strdup(stat_str);
 	temp[char_pos] = '\0';
 	if (temp[0] == '\0')
+	{
 		*line = ft_strdup("");
+	}
 	else
 		*line = ft_strdup(temp);
 	free(temp);
@@ -57,10 +59,10 @@ static char		*arrangements(char *stat_str, t_struct *vars, char **line)
 	i = 0;
 	char_pos = find_break_or_null(stat_str, vars);
 	write_to_line(stat_str, line, char_pos);
-	if (stat_str[char_pos] == '\0')
+	if (stat_str[char_pos] == '\0' || line == NULL)
 	{
-		stat_str[0] = '\0';
-		return (stat_str);
+		free(stat_str);
+		return (NULL);
 	}
 	char_pos++;
 	temp = malloc(sizeof(char) * ft_strlen(stat_str) + 1);
