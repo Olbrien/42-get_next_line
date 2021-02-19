@@ -1,6 +1,10 @@
 # get_next_line
 
 
+###### <i>Recent Update on 19/02/2021.</i>
+Fixed lvl_1_get_next_line_old_norm.\
+Missing Norminette V3.
+
 ###### <i>Recent Update on 13/02/2021.</i>
 Added lvl_1_get_next_line_old_norm.
 
