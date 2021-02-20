@@ -4,7 +4,8 @@
 
 ###### <i>Recent Update on 20/02/2021.</i>
 Finished project.\
-All files delivered with Old Norminette.
+All files delivered with Old Norminette.\
+Updated lvl_1_get_next_line_main.
 
 ###### <i>Old Update on 19/02/2021.</i>
 Fixed lvl_1_get_next_line_old_norm.\
